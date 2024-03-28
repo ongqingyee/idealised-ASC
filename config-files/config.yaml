@@ -1,0 +1,30 @@
+# Scheduler settings
+ncpus: 300
+walltime: 5:00:00
+jobname: freshnDSW_STEEPSILLsig1p0e+02
+project: v45
+queue: normal
+qsub_flags: -W umask=027
+
+# Model settings
+model: mom6
+shortpath: /scratch/v45
+exe: /g/data/v45/nc3020/MOM6-exe/MOM6-2Jun2021   
+input:  /g/data/v45/qo9901/4layer_input/layer4_tau1p0e-01_fresh_canyon_nDSW_STEEPSILLsigmah1p0e+02
+
+
+storage: 
+    gdata: 
+        - v45
+    scratch:
+        - v45
+
+mpi:
+    module: openmpi/4.0.1
+
+
+# Postprocessing
+collate: False
+#userscripts:
+#    archive: sync_output_to_gdata.sh
+

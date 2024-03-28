@@ -1,0 +1,32 @@
+"ASC Channel"
+1 1 1 0 0 0
+
+"prog",     15, "days",  1, "days", "Time",
+"prog_ave", 15, "days",  1, "days", "Time",
+"prog_daily", 1, "days",  1, "days", "Time",
+
+# Instantaneous diagnostics
+"ocean_model","u",   "u",   "prog","all","mean","none",2
+"ocean_model","v",   "v",   "prog","all","mean","none",2
+"ocean_model","h",   "h",   "prog","all","mean","none",2
+"ocean_model","e",   "e",   "prog","all","mean","none",2
+"ocean_model","uh",   "uh",   "prog","all","mean","none",2
+"ocean_model","vh",   "vh",   "prog","all","mean","none",2
+"ocean_model","PV",   "PV",   "prog","all","mean","none",2
+"ocean_model","w_sponge",   "w_sponge",   "prog","all","mean","none",2
+"ocean_model","pbo",   "pbo",   "prog","all","mean","none",2
+
+"ocean_model","u",   "u",   "prog_daily","all","mean","none",2
+"ocean_model","v",   "v",   "prog_daily","all","mean","none",2
+"ocean_model","h",   "h",   "prog_daily","all","mean","none",2
+"ocean_model","e",   "e",   "prog_daily","all","mean","none",2
+"ocean_model","uh",   "uh",   "prog_daily","all","mean","none",2
+"ocean_model","vh",   "vh",   "prog_daily","all","mean","none",2
+#"ocean_model","pbo",   "pbo",   "prog_daily","all","mean","none",2
+#"ocean_model","taux_bot",   "taux_bot",   "prog_daily","all","mean","none",2
+
+
+
+
+
+
