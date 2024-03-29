@@ -1,5 +1,18 @@
 # idealised-ASC
-Repository with scripts and notebooks for reproducing the figures and analyses for the manuscript "Intrinsically Episodic Intrusions of Circumpolar Deep Water via Canyons – An Idealised Study of the Antarctic Slope Current" by Ong et al (2024), [https://doi.org/10.1175/JPO-D-23-0067.1](https://doi.org/10.1175/JPO-D-23-0067.1). 
+Repository with scripts and notebooks for reproducing the figures and analyses for the paper:
+
+Ong, E. Q. Y., Doddridge, E. W., Constantinou, N. C., Hogg, A. McC., and England, M. H. (2024). Intrinsically episodic Antarctic shelf intrusions of circumpolar deep water via canyons. _J. Phys. Oceanogr._ (in press; doi:[10.1175/JPO-D-23-0067.1](https://doi.org/10.1175/JPO-D-23-0067.1))
+
+```bibtex
+@article{Ong-etal-2024,
+  doi = {10.1175/JPO-D-23-0067.1},
+  year = {2024},
+  author = {Ong, E. Q. Y. and Doddridge, E. W. and Constantinou, N. C. and Hogg, A. McC. and England, M. H.},
+  title = {Intrinsically episodic Antarctic shelf intrusions of circumpolar deep water via canyons},
+  journal = {J. Phys. Oceanogr.}
+  note = {in press; doi:10.1175/JPO-D-23-0067.1}
+}
+```
 
 Directory `analysis_notebooks` has the jupyter notebooks that analyse MOM6 model output data, which reproduces all the nefCDF files included in `layeredASFpaper_ncfile`. 
 
