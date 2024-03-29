@@ -14,10 +14,12 @@ Ong, E. Q. Y., Doddridge, E. W., Constantinou, N. C., Hogg, A. McC., and England
 }
 ```
 
-Directory `analysis_notebooks` has the jupyter notebooks that analyse MOM6 model output data, which reproduces all the nefCDF files included in `layeredASFpaper_ncfile`. 
+### Contents
 
-Directory `plotting_notebooks` has the jupyter notebooks that use netCDF files in `layeredASFpaper_ncfile` to plot figures for the paper. 
+* `analysis_notebooks`: jupyter notebooks that analyse MOM6 model output data, which reproduces all the nefCDF files included in `layeredASFpaper_ncfile`.
 
-Directory `input-files` contains the directory `layer4_tau1p0e-01_example_STEEPsigmah1p0e+02` with example input files for the reference simulation, and the jupyter notebook used to generate the input files. 
+* `plotting_notebooks`: jupyter notebooks that use netCDF files in `layeredASFpaper_ncfile` to plot figures for the paper. 
 
-Directory `config-files` contains the files for configuring the MOM6 model (github.com/mom-ocean/MOM6)
+* `input-files`: contains the directory `layer4_tau1p0e-01_example_STEEPsigmah1p0e+02` with example input files for the reference simulation, and the jupyter notebook used to generate the input files. 
+
+* `config-files`: contains the files for configuring the MOM6 model ([github.com/mom-ocean/MOM6](https://github.com/mom-ocean/MOM6))
