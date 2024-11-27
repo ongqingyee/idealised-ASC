@@ -8,3 +8,5 @@ Directory `plotting_notebooks` has the jupyter notebooks that use netCDF files i
 Directory `input-files` contains the directory `layer4_tau1p0e-01_example_STEEPsigmah1p0e+02` with example input files for the reference simulation, and the jupyter notebook used to generate the input files. 
 
 Directory `config-files` contains the files for configuring the MOM6 model (github.com/mom-ocean/MOM6)
+
+Directory `nc_files_timeseries` contains archived post-processed files not featured in this publication.
